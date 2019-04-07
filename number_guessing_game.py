@@ -1,6 +1,7 @@
 import random
 # Welcome banner
 import pyfiglet
+import sys
 
 scoreboard = []
 
@@ -8,7 +9,7 @@ def start_game():
     while True:
         name = input("Good day!, please enter your 'NAME' to start (or QUIT to exit): ")
         if name.lower() == "quit":
-            quit()
+            sys.exit()
         elif name.isnumeric():
             print("{}?, that's an invalid input but you may provide a combination of numbers & letters.".format(name))
         else:
@@ -62,8 +63,11 @@ def start_game():
                     start_game()
                 elif play.lower() == "no":
                     print("Thank you for playing the Number guessing game {}!, See you again!".format(name))
-                    quit()
+                    sys.exit()
 
 if __name__ == '__main__':
     # Kick off the program by calling the start_game function.
-    start_game()
+    try:
+        start_game()
+    except SystemExit:
+         print("Terminating program.")
