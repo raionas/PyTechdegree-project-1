@@ -1,0 +1,5 @@
+#---Text formatting library pyfiglet---#
+# http://www.figlet.org/
+# Requirement to run the program
+#---- run on command line ---#
+# pip install pyfiglet
