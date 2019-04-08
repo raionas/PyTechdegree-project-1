@@ -3,7 +3,7 @@
 #### A simple game where a player (human) attempts to *guesstimate* a number within a certain range and records the least amount of guesses taken by a user so we could attempt to beat it!
 
 Good day!, please enter your 'NAME' to start (or QUIT to exit): RM
-  _   _   _   _   _   _   _   _     _   _   _
+ ``` _   _   _   _   _   _   _   _     _   _   _
  / \ / \ / \ / \ / \ / \ / \ / \   / \ / \ / \
 ( W | e | l | c | o | m | e | ! ) ( R | M | ! )
  \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/   \_/ \_/ \_/
